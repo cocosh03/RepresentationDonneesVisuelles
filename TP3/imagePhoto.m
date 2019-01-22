@@ -1,5 +1,5 @@
-im = imread('../img/animal_tres_mechant.jpg');
+im = imread('../img/animaltresmechant.jpg');
 imshow(im);
-im2 = rgb2gray(im);
+im = double(rgb2gray(im))/255;
 figure;
-imshow(im2);
+imshow (im);
